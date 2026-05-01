@@ -1,0 +1,215 @@
+# ==========================================
+# PocketShop - Полный магазин
+# ==========================================
+
+# ==========================================
+# БЛОКИ (Blocks) - от 1 до 64 штук
+# ==========================================
+blocks:
+  - {name: "Камень", item: "stone", price: 4, amount: 16}
+  - {name: "Земля", item: "dirt", price: 2, amount: 16}
+  - {name: "Песок", item: "sand", price: 3, amount: 16}
+  - {name: "Гравий", item: "gravel", price: 3, amount: 16}
+  - {name: "Уголь", item: "coal", price: 10, amount: 8}
+  - {name: "Железный слиток", item: "iron_ingot", price: 25, amount: 8}
+  - {name: "Золотой слиток", item: "gold_ingot", price: 40, amount: 8}
+  - {name: "Алмаз", item: "diamond", price: 80, amount: 4}
+  - {name: "Изумруд", item: "emerald", price: 60, amount: 4}
+  - {name: "Лазурит", item: "lapis_lazuli", price: 30, amount: 8}
+  - {name: "Редстоун", item: "redstone", price: 15, amount: 16}
+  - {name: "Медный слиток", item: "copper_ingot", price: 12, amount: 8}
+  - {name: "Незеритовый слиток", item: "netherite_scrap", price: 200, amount: 4}
+  - {name: "Кварцевый блок", item: "quartz_block", price: 20, amount: 8}
+  - {name: "Аметист", item: "amethyst_shard", price: 25, amount: 8}
+  - {name: "Дубовые доски", item: "oak_planks", price: 5, amount: 32}
+  - {name: "Берёзовые доски", item: "birch_planks", price: 6, amount: 32}
+  - {name: "Еловые доски", item: "spruce_planks", price: 5, amount: 32}
+  - {name: "Дубовые брёвна", item: "oak_log", price: 8, amount: 16}
+  - {name: "Булыжник", item: "cobblestone", price: 3, amount: 32}
+  - {name: "Кирпичи", item: "brick", price: 10, amount: 16}
+  - {name: "Каменные кирпичи", item: "stone_bricks", price: 8, amount: 16}
+  - {name: "Песчаник", item: "sandstone", price: 6, amount: 16}
+  - {name: "Лёд", item: "ice", price: 8, amount: 8}
+  - {name: "Голубой лёд", item: "blue_ice", price: 50, amount: 4}
+  - {name: "Снежный блок", item: "snow_block", price: 4, amount: 16}
+  - {name: "Светокамень", item: "glowstone", price: 15, amount: 8}
+  - {name: "Стекло", item: "glass", price: 6, amount: 16}
+  - {name: "Тонированное стекло", item: "tinted_glass", price: 20, amount: 8}
+  - {name: "Железный блок", item: "iron_block", price: 150, amount: 4}
+  - {name: "Золотой блок", item: "gold_block", price: 300, amount: 2}
+  - {name: "Алмазный блок", item: "diamond_block", price: 500, amount: 1}
+  - {name: "Изумрудный блок", item: "emerald_block", price: 400, amount: 1}
+
+# ==========================================
+# ПРЕДМЕТЫ (Items) - от 1 до 64 штук
+# ==========================================
+items:
+  - {name: "Яблоко", item: "apple", price: 3, amount: 8}
+  - {name: "Хлеб", item: "bread", price: 5, amount: 8}
+  - {name: "Сырая говядина", item: "beef", price: 4, amount: 8}
+  - {name: "Сырая курица", item: "chicken", price: 3, amount: 8}
+  - {name: "Сырая рыба", item: "cod", price: 4, amount: 8}
+  - {name: "Морковь", item: "carrot", price: 3, amount: 16}
+  - {name: "Картофель", item: "potato", price: 2, amount: 16}
+  - {name: "Свёкла", item: "beetroot", price: 4, amount: 8}
+  - {name: "Тыква", item: "pumpkin", price: 8, amount: 8}
+  - {name: "Арбуз", item: "melon", price: 5, amount: 8}
+  - {name: "Грибы", item: "brown_mushroom", price: 5, amount: 8}
+  - {name: "Странные грибы", item: "crimson_fungus", price: 15, amount: 4}
+  - {name: "Деформированные грибы", item: "warped_fungus", price: 15, amount: 4}
+  - {name: "Нити", item: "string", price: 8, amount: 16}
+  - {name: "Паутина", item: "cobweb", price: 10, amount: 4}
+  - {name: "Перья", item: "feather", price: 5, amount: 16}
+  - {name: "Кожа", item: "leather", price: 12, amount: 8}
+  - {name: "Костяная мука", item: "bone_meal", price: 6, amount: 16}
+  - {name: "Слизь", item: "slime_ball", price: 15, amount: 8}
+  - {name: "Огненный порошок", item: "blaze_powder", price: 25, amount: 4}
+  - {name: "Магма", item: "magma_cream", price: 20, amount: 4}
+  - {name: "Жемчуг Края", item: "ender_pearl", price: 30, amount: 4}
+  - {name: "Око Края", item: "ender_eye", price: 40, amount: 4}
+  - {name: "Компас", item: "compass", price: 25, amount: 4}
+  - {name: "Часы", item: "clock", price: 30, amount: 4}
+  - {name: "Карта", item: "map", price: 20, amount: 4}
+  - {name: "Книги", item: "book", price: 15, amount: 8}
+  - {name: "Бумага", item: "paper", price: 8, amount: 16}
+  - {name: "Сахар", item: "sugar", price: 6, amount: 16}
+  - {name: "Какао-бобы", item: "cocoa_beans", price: 6, amount: 16}
+
+# ==========================================
+# ИНСТРУМЕНТЫ (Tools)
+# ==========================================
+tools:
+  - {name: "Деревянная кирка", item: "wooden_pickaxe", price: 50, amount: 1}
+  - {name: "Каменная кирка", item: "stone_pickaxe", price: 80, amount: 1}
+  - {name: "Железная кирка", item: "iron_pickaxe", price: 200, amount: 1}
+  - {name: "Золотая кирка", item: "golden_pickaxe", price: 150, amount: 1}
+  - {name: "Алмазная кирка", item: "diamond_pickaxe", price: 500, amount: 1}
+  - {name: "Незеритовая кирка", item: "netherite_pickaxe", price: 1500, amount: 1}
+  - {name: "Деревянный топор", item: "wooden_axe", price: 50, amount: 1}
+  - {name: "Каменный топор", item: "stone_axe", price: 80, amount: 1}
+  - {name: "Железный топор", item: "iron_axe", price: 200, amount: 1}
+  - {name: "Алмазный топор", item: "diamond_axe", price: 500, amount: 1}
+  - {name: "Деревянная лопата", item: "wooden_shovel", price: 30, amount: 1}
+  - {name: "Каменная лопата", item: "stone_shovel", price: 50, amount: 1}
+  - {name: "Железная лопата", item: "iron_shovel", price: 120, amount: 1}
+  - {name: "Алмазная лопата", item: "diamond_shovel", price: 300, amount: 1}
+  - {name: "Деревянная мотыга", item: "wooden_hoe", price: 30, amount: 1}
+  - {name: "Каменная мотыга", item: "stone_hoe", price: 50, amount: 1}
+  - {name: "Железная мотыга", item: "iron_hoe", price: 120, amount: 1}
+  - {name: "Алмазная мотыга", item: "diamond_hoe", price: 300, amount: 1}
+  - {name: "Ножницы", item: "shears", price: 80, amount: 1}
+  - {name: "Удочка", item: "fishing_rod", price: 100, amount: 1}
+  - {name: "Огниво", item: "flint_and_steel", price: 60, amount: 1}
+  - {name: "Компас", item: "compass", price: 100, amount: 1}
+  - {name: "Радар", item: "lodestone_compass", price: 300, amount: 1}
+
+# ==========================================
+# БРОНЯ (Armor)
+# ==========================================
+armor:
+  - {name: "Кожаный шлем", item: "leather_helmet", price: 80, amount: 1}
+  - {name: "Кожаная куртка", item: "leather_chestplate", price: 120, amount: 1}
+  - {name: "Кожаные штаны", item: "leather_leggings", price: 100, amount: 1}
+  - {name: "Кожаные ботинки", item: "leather_boots", price: 80, amount: 1}
+  - {name: "Кольчужный шлем", item: "chainmail_helmet", price: 150, amount: 1}
+  - {name: "Кольчужная куртка", item: "chainmail_chestplate", price: 200, amount: 1}
+  - {name: "Кольчужные штаны", item: "chainmail_leggings", price: 180, amount: 1}
+  - {name: "Кольчужные ботинки", item: "chainmail_boots", price: 150, amount: 1}
+  - {name: "Железный шлем", item: "iron_helmet", price: 300, amount: 1}
+  - {name: "Железная куртка", item: "iron_chestplate", price: 400, amount: 1}
+  - {name: "Железные штаны", item: "iron_leggings", price: 350, amount: 1}
+  - {name: "Железные ботинки", item: "iron_boots", price: 300, amount: 1}
+  - {name: "Золотой шлем", item: "golden_helmet", price: 200, amount: 1}
+  - {name: "Золотая куртка", item: "golden_chestplate", price: 300, amount: 1}
+  - {name: "Золотые штаны", item: "golden_leggings", price: 250, amount: 1}
+  - {name: "Золотые ботинки", item: "golden_boots", price: 200, amount: 1}
+  - {name: "Алмазный шлем", item: "diamond_helmet", price: 600, amount: 1}
+  - {name: "Алмазная куртка", item: "diamond_chestplate", price: 800, amount: 1}
+  - {name: "Алмазные штаны", item: "diamond_leggings", price: 700, amount: 1}
+  - {name: "Алмазные ботинки", item: "diamond_boots", price: 600, amount: 1}
+  - {name: "Незеритовый шлем", item: "netherite_helmet", price: 1500, amount: 1}
+  - {name: "Незеритовая куртка", item: "netherite_chestplate", price: 2000, amount: 1}
+  - {name: "Незеритовые штаны", item: "netherite_leggings", price: 1800, amount: 1}
+  - {name: "Незеритовые ботинки", item: "netherite_boots", price: 1500, amount: 1}
+  - {name: "Черепаший шлем", item: "turtle_helmet", price: 500, amount: 1}
+
+# ==========================================
+# ОРУЖИЕ (Swords)
+# ==========================================
+swords:
+  - {name: "Деревянный меч", item: "wooden_sword", price: 50, amount: 1}
+  - {name: "Каменный меч", item: "stone_sword", price: 80, amount: 1}
+  - {name: "Железный меч", item: "iron_sword", price: 200, amount: 1}
+  - {name: "Золотой меч", item: "golden_sword", price: 150, amount: 1}
+  - {name: "Алмазный меч", item: "diamond_sword", price: 500, amount: 1}
+  - {name: "Незеритовый меч", item: "netherite_sword", price: 1500, amount: 1}
+  - {name: "Трезубец", item: "trident", price: 1000, amount: 1}
+  - {name: "Лук", item: "bow", price: 250, amount: 1}
+  - {name: "Арбалет", item: "crossbow", price: 400, amount: 1}
+  - {name: "Стрелы x32", item: "arrow", price: 30, amount: 32}
+  - {name: "Заклинатель", item: "snowball", price: 10, amount: 16}
+
+# ==========================================
+# КРАСИТЕЛИ (Dyes)
+# ==========================================
+dyes:
+  - {name: "Чёрный краситель", item: "black_dye", price: 8, amount: 8}
+  - {name: "Красный краситель", item: "red_dye", price: 8, amount: 8}
+  - {name: "Зелёный краситель", item: "green_dye", price: 8, amount: 8}
+  - {name: "Коричневый краситель", item: "brown_dye", price: 8, amount: 8}
+  - {name: "Синий краситель", item: "blue_dye", price: 8, amount: 8}
+  - {name: "Фиолетовый краситель", item: "purple_dye", price: 8, amount: 8}
+  - {name: "Бирюзовый краситель", item: "cyan_dye", price: 8, amount: 8}
+  - {name: "Светло-серый краситель", item: "light_gray_dye", price: 8, amount: 8}
+  - {name: "Серый краситель", item: "gray_dye", price: 8, amount: 8}
+  - {name: "Розовый краситель", item: "pink_dye", price: 8, amount: 8}
+  - {name: "Лаймовый краситель", item: "lime_dye", price: 8, amount: 8}
+  - {name: "Жёлтый краситель", item: "yellow_dye", price: 8, amount: 8}
+  - {name: "Голубой краситель", item: "light_blue_dye", price: 8, amount: 8}
+  - {name: "Маджента краситель", item: "magenta_dye", price: 8, amount: 8}
+  - {name: "Оранжевый краситель", item: "orange_dye", price: 8, amount: 8}
+  - {name: "Белый краситель", item: "white_dye", price: 8, amount: 8}
+
+# ==========================================
+# ЕДА (Food) - сразу 8-32 штук
+# ==========================================
+food:
+  - {name: "Яблоко", item: "apple", price: 5, amount: 8}
+  - {name: "Золотое яблоко", item: "golden_apple", price: 300, amount: 1}
+  - {name: "Зачарованное яблоко", item: "enchanted_golden_apple", price: 2000, amount: 1}
+  - {name: "Хлеб", item: "bread", price: 8, amount: 16}
+  - {name: "Торт", item: "cake", price: 200, amount: 1}
+  - {name: "Печёное мясо", item: "cooked_beef", price: 15, amount: 8}
+  - {name: "Стейк", item: "cooked_porkchop", price: 15, amount: 8}
+  - {name: "Жареная курица", item: "cooked_chicken", price: 12, amount: 8}
+  - {name: "Жареная рыба", item: "cooked_cod", price: 12, amount: 8}
+  - {name: "Жареный лосось", item: "cooked_salmon", price: 15, amount: 8}
+  - {name: "Морковь", item: "carrot", price: 5, amount: 16}
+  - {name: "Золотая морковь", item: "golden_carrot", price: 50, amount: 4}
+  - {name: "Картофель", item: "potato", price: 3, amount: 16}
+  - {name: "Печёный картофель", item: "baked_potato", price: 8, amount: 8}
+  - {name: "Горшок с мясом", item: "rabbit_stew", price: 30, amount: 4}
+  - {name: "Грибной суп", item: "mushroom_stew", price: 15, amount: 4}
+  - {name: "Подозрительный суп", item: "suspicious_stew", price: 25, amount: 4}
+  - {name: "Тыквенный пирог", item: "pumpkin_pie", price: 20, amount: 8}
+  - {name: "Сладкие ягоды", item: "sweet_berries", price: 5, amount: 16}
+  - {name: "Светящиеся ягоды", item: "glow_berries", price: 10, amount: 16}
+  - {name: "Мёд", item: "honey_bottle", price: 25, amount: 4}
+  - {name: "Молоко", item: "milk_bucket", price: 20, amount: 1}
+
+# ==========================================
+# ЗЕЛЬЯ (Potions)
+# ==========================================
+potions:
+  - {name: "Зелье лечения", item: "potion_healing", price: 100, amount: 1}
+  - {name: "Зелье регенерации", item: "potion_regeneration", price: 150, amount: 1}
+  - {name: "Зелье скорости", item: "potion_speed", price: 150, amount: 1}
+  - {name: "Зелье огнестойкости", item: "potion_fire_resistance", price: 150, amount: 1}
+  - {name: "Зелье невидимости", item: "potion_invisibility", price: 200, amount: 1}
+  - {name: "Зелье ночного зрения", item: "potion_night_vision", price: 120, amount: 1}
+  - {name: "Зелье прыгучести", item: "potion_jump", price: 120, amount: 1}
+  - {name: "Зелье силы", item: "potion_strength", price: 150, amount: 1}
+  - {name: "Зелье слабости", item: "potion_weakness", price: 100, amount: 1}
+  - {name: "Зелье замедления", item: "potion_slowness", price: 100, amount: 1}
+  - {name: "Зелье водного дыхания", item: "potion_water_breathing", price: 120, amount: 1}
+  - {name: "Зелье медленного падения", item: "potion_slow_falling", price: 120, amount: 1}

@@ -1,0 +1,17 @@
+name: PocketShop
+main: pocketmine_ru\PocketShop\Main
+version: 2.0
+api: 5.0.0
+author: vk.com/pocketmine
+description: Магазин блоков, предметов, брони, мечей, красителей, еды, зелий и яиц призыва
+
+depend:
+  - EconomyAPI
+
+permissions:
+  pocketshop.use:
+    default: true
+    description: "Использование команд магазина"
+  pocketshop.admin:
+    default: op
+    description: "Администрирование магазина"
