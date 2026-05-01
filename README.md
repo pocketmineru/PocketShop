@@ -107,7 +107,7 @@ PocketShop/
 ```
 
 ## Заказать плагины
-💎 Наша Студия — https://vk.me/pocketm
+💎 Наша Студия — https://vk.me/pocketmine
 
 ## Лицензия
 
